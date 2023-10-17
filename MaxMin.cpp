@@ -6,17 +6,14 @@ int main()
 
     int size = sizeof(myArre) / sizeof(int);
 
-    int biggest = 0;
+    int sum = 0;
 
     for (int i = 0; i < size; i++)
     {
-        if (biggest > myArre[i])
-        {
-            biggest = myArre[i];
-        }
+        sum += myArre[i];
     }
 
-    cout << biggest << endl;
+    cout << sum << endl;
 
     return 0;
 }
