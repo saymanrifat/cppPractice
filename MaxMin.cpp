@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int myArre[] = {12, 16, 2, 4, -7, 10, 22, -33, 0};
